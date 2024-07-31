@@ -4,3 +4,5 @@ Spring.watch(
   "tmp/restart.txt",
   "tmp/caching-dev.txt"
 )
+
+ENV["OBJC_DISABLE_INITIALIZE_FORK_SAFETY"] = "YES"
