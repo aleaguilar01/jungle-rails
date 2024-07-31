@@ -62,7 +62,7 @@ They can be eaten to relief a sore throat.
 As a defense mechanism the Scented Blade can collapse its flowers when it detects vibrations.
 They rely on animal pollination to reproduce. Once pollinated, they grow fairly large, delicious nuts.",
   image: open_asset('plante_2.jpg'),
-  quantity: 18,
+  quantity: 0,
   price: 24.99
 })
 
@@ -213,7 +213,7 @@ cat3.products.create!({
   As a defense mechanism the Cliff Collard grows thick thorns.
   They rely on winds to carry their seeds away to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_12.jpg'),
-  quantity: 23,
+  quantity: 0,
   price: 79.99
 })
 

@@ -1,6 +1,9 @@
 {
   "name": "new",
   "private": true,
+  "scripts": {
+    "start": "bin/rails s -b 0.0.0.0"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
