@@ -1,4 +1,4 @@
-<h1>Admin::Dashboard#show</h1>
+<h1>Admin Dashboard</h1>
 
 
 <div class="container">
@@ -7,7 +7,7 @@
     <li>Total Products: <%= @product_count %></li>
   </ul>
 
-  <%= link_to 'Link to Products', 'http://localhost:3000/admin/products' %>
+  <%= link_to 'Link to Products', [:admin, :products] %>
   
   <h3> Protucs per category: </h3>
   
