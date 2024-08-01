@@ -1,2 +1,31 @@
 <h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+
+<div class="container">
+  <ul> 
+    <li>Total Categories: <%= @categories_count %></li>
+    <li>Total Products: <%= @product_count %></li>
+  </ul>
+
+  <%= link_to 'Link to Products', 'http://localhost:3000/admin/products' %>
+  
+  <h3> Protucs per category: </h3>
+  
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Category Name</th>
+        <th>Products per Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @categories.each do |category| %>
+        <tr>
+          <td><%= category.name %></td>
+          <td><%= category.products.count %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
